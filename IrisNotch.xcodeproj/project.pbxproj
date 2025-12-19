@@ -21,12 +21,29 @@
 			remoteGlobalIDString = ABCB7BDE2EF549800063D67D;
 			remoteInfo = IrisNotch;
 		};
+		ABCB7C312EF56D4A0063D67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCB7BD72EF549800063D67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCB7C232EF56D480063D67D;
+			remoteInfo = IrisNotchLauncher;
+		};
+		ABCB7C3B2EF56D4A0063D67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCB7BD72EF549800063D67D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCB7C232EF56D480063D67D;
+			remoteInfo = IrisNotchLauncher;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ABCB7BDF2EF549800063D67D /* IrisNotch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrisNotch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCB7BEC2EF549810063D67D /* IrisNotchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisNotchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCB7BF62EF549810063D67D /* IrisNotchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisNotchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCB7C242EF56D480063D67D /* IrisNotchLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrisNotchLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCB7C302EF56D4A0063D67D /* IrisNotchLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisNotchLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCB7C3A2EF56D4A0063D67D /* IrisNotchLauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisNotchLauncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +60,21 @@
 		ABCB7BF92EF549810063D67D /* IrisNotchUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = IrisNotchUITests;
+			sourceTree = "<group>";
+		};
+		ABCB7C252EF56D480063D67D /* IrisNotchLauncher */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IrisNotchLauncher;
+			sourceTree = "<group>";
+		};
+		ABCB7C332EF56D4A0063D67D /* IrisNotchLauncherTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IrisNotchLauncherTests;
+			sourceTree = "<group>";
+		};
+		ABCB7C3D2EF56D4A0063D67D /* IrisNotchLauncherUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IrisNotchLauncherUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +101,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABCB7C212EF56D480063D67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCB7C2D2EF56D4A0063D67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCB7C372EF56D4A0063D67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +131,9 @@
 				ABCB7BE12EF549800063D67D /* IrisNotch */,
 				ABCB7BEF2EF549810063D67D /* IrisNotchTests */,
 				ABCB7BF92EF549810063D67D /* IrisNotchUITests */,
+				ABCB7C252EF56D480063D67D /* IrisNotchLauncher */,
+				ABCB7C332EF56D4A0063D67D /* IrisNotchLauncherTests */,
+				ABCB7C3D2EF56D4A0063D67D /* IrisNotchLauncherUITests */,
 				ABCB7BE02EF549800063D67D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +144,9 @@
 				ABCB7BDF2EF549800063D67D /* IrisNotch.app */,
 				ABCB7BEC2EF549810063D67D /* IrisNotchTests.xctest */,
 				ABCB7BF62EF549810063D67D /* IrisNotchUITests.xctest */,
+				ABCB7C242EF56D480063D67D /* IrisNotchLauncher.app */,
+				ABCB7C302EF56D4A0063D67D /* IrisNotchLauncherTests.xctest */,
+				ABCB7C3A2EF56D4A0063D67D /* IrisNotchLauncherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +222,74 @@
 			productReference = ABCB7BF62EF549810063D67D /* IrisNotchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		ABCB7C232EF56D480063D67D /* IrisNotchLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCB7C422EF56D4A0063D67D /* Build configuration list for PBXNativeTarget "IrisNotchLauncher" */;
+			buildPhases = (
+				ABCB7C202EF56D480063D67D /* Sources */,
+				ABCB7C212EF56D480063D67D /* Frameworks */,
+				ABCB7C222EF56D480063D67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ABCB7C252EF56D480063D67D /* IrisNotchLauncher */,
+			);
+			name = IrisNotchLauncher;
+			packageProductDependencies = (
+			);
+			productName = IrisNotchLauncher;
+			productReference = ABCB7C242EF56D480063D67D /* IrisNotchLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCB7C2F2EF56D4A0063D67D /* IrisNotchLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCB7C452EF56D4A0063D67D /* Build configuration list for PBXNativeTarget "IrisNotchLauncherTests" */;
+			buildPhases = (
+				ABCB7C2C2EF56D4A0063D67D /* Sources */,
+				ABCB7C2D2EF56D4A0063D67D /* Frameworks */,
+				ABCB7C2E2EF56D4A0063D67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCB7C322EF56D4A0063D67D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABCB7C332EF56D4A0063D67D /* IrisNotchLauncherTests */,
+			);
+			name = IrisNotchLauncherTests;
+			packageProductDependencies = (
+			);
+			productName = IrisNotchLauncherTests;
+			productReference = ABCB7C302EF56D4A0063D67D /* IrisNotchLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABCB7C392EF56D4A0063D67D /* IrisNotchLauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCB7C482EF56D4A0063D67D /* Build configuration list for PBXNativeTarget "IrisNotchLauncherUITests" */;
+			buildPhases = (
+				ABCB7C362EF56D4A0063D67D /* Sources */,
+				ABCB7C372EF56D4A0063D67D /* Frameworks */,
+				ABCB7C382EF56D4A0063D67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCB7C3C2EF56D4A0063D67D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABCB7C3D2EF56D4A0063D67D /* IrisNotchLauncherUITests */,
+			);
+			name = IrisNotchLauncherUITests;
+			packageProductDependencies = (
+			);
+			productName = IrisNotchLauncherUITests;
+			productReference = ABCB7C3A2EF56D4A0063D67D /* IrisNotchLauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +311,17 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = ABCB7BDE2EF549800063D67D;
 					};
+					ABCB7C232EF56D480063D67D = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					ABCB7C2F2EF56D4A0063D67D = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = ABCB7C232EF56D480063D67D;
+					};
+					ABCB7C392EF56D4A0063D67D = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = ABCB7C232EF56D480063D67D;
+					};
 				};
 			};
 			buildConfigurationList = ABCB7BDA2EF549800063D67D /* Build configuration list for PBXProject "IrisNotch" */;
@@ -203,6 +341,9 @@
 				ABCB7BDE2EF549800063D67D /* IrisNotch */,
 				ABCB7BEB2EF549810063D67D /* IrisNotchTests */,
 				ABCB7BF52EF549810063D67D /* IrisNotchUITests */,
+				ABCB7C232EF56D480063D67D /* IrisNotchLauncher */,
+				ABCB7C2F2EF56D4A0063D67D /* IrisNotchLauncherTests */,
+				ABCB7C392EF56D4A0063D67D /* IrisNotchLauncherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +364,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABCB7BF42EF549810063D67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCB7C222EF56D480063D67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCB7C2E2EF56D4A0063D67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCB7C382EF56D4A0063D67D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +415,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABCB7C202EF56D480063D67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCB7C2C2EF56D4A0063D67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCB7C362EF56D4A0063D67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +448,16 @@
 			isa = PBXTargetDependency;
 			target = ABCB7BDE2EF549800063D67D /* IrisNotch */;
 			targetProxy = ABCB7BF72EF549810063D67D /* PBXContainerItemProxy */;
+		};
+		ABCB7C322EF56D4A0063D67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCB7C232EF56D480063D67D /* IrisNotchLauncher */;
+			targetProxy = ABCB7C312EF56D4A0063D67D /* PBXContainerItemProxy */;
+		};
+		ABCB7C3C2EF56D4A0063D67D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCB7C232EF56D480063D67D /* IrisNotchLauncher */;
+			targetProxy = ABCB7C3B2EF56D4A0063D67D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -523,6 +716,142 @@
 			};
 			name = Release;
 		};
+		ABCB7C432EF56D4A0063D67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactimenotch.IrisNotchLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABCB7C442EF56D4A0063D67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactimenotch.IrisNotchLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABCB7C462EF56D4A0063D67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactimenotch.IrisNotchLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrisNotchLauncher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IrisNotchLauncher";
+			};
+			name = Debug;
+		};
+		ABCB7C472EF56D4A0063D67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactimenotch.IrisNotchLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrisNotchLauncher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IrisNotchLauncher";
+			};
+			name = Release;
+		};
+		ABCB7C492EF56D4A0063D67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactimenotch.IrisNotchLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IrisNotchLauncher;
+			};
+			name = Debug;
+		};
+		ABCB7C4A2EF56D4A0063D67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactimenotch.IrisNotchLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IrisNotchLauncher;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,6 +887,33 @@
 			buildConfigurations = (
 				ABCB7C072EF549810063D67D /* Debug */,
 				ABCB7C082EF549810063D67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCB7C422EF56D4A0063D67D /* Build configuration list for PBXNativeTarget "IrisNotchLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCB7C432EF56D4A0063D67D /* Debug */,
+				ABCB7C442EF56D4A0063D67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCB7C452EF56D4A0063D67D /* Build configuration list for PBXNativeTarget "IrisNotchLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCB7C462EF56D4A0063D67D /* Debug */,
+				ABCB7C472EF56D4A0063D67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCB7C482EF56D4A0063D67D /* Build configuration list for PBXNativeTarget "IrisNotchLauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCB7C492EF56D4A0063D67D /* Debug */,
+				ABCB7C4A2EF56D4A0063D67D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
